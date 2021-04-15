@@ -1,6 +1,6 @@
 <template>
   <Spin size="large" fix v-show="isLoading">
-    <div slot>
+    <div >
       <div class="next-loading-fusion-reactor">
         <span class="next-loading-dot"></span>
         <span class="next-loading-dot"></span>
@@ -14,6 +14,8 @@
 <script>
 export default {
   name: 'admin-spin',
+  components:{
+  },
   props: {
     isLoading: {
       type: Boolean,
@@ -29,8 +31,8 @@ export default {
 </script>
 
 <style scoped lang="less">
-// @import '~@/assets/style/color-theme.less';
- @primary-color : #0070cc;
+/* // @import '~@/assets/style/color-theme.less'; */
+ @primary-color : #0070cc; 
 @keyframes nextVectorRoute {
   0% {
     transform: rotate(0deg);
