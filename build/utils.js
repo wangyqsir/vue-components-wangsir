@@ -62,7 +62,7 @@ exports.cssLoaders = function (options) {
         loader: 'sass-resources-loader',
         options: {
           resources: [
-            path.resolve(__dirname, '../src/assets/style/them.less'), //定义全局变量的文件路径
+            path.resolve(__dirname, '../src/assets/style/color-theme.less'), //定义全局变量的文件路径
           ]
         }
       }

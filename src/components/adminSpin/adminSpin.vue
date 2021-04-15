@@ -29,6 +29,7 @@ export default {
 </script>
 
 <style scoped lang="less">
+@import '~@/assets/style/color-theme.less';
 @keyframes nextVectorRoute {
   0% {
     transform: rotate(0deg);
